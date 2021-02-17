@@ -46,9 +46,14 @@ center: 0
 
 ## Jupyter notebook and jupyter lab
 
-* Notebook: flat, linear
+::: {.columns } :::
+:::{.column}
+(Notebook: flat, linear)[https://jupyter.org/assets/jupyterpreview.png]
+:::
+:::{.column}
+(Lab: richier)[https://jupyter.org/assets/labpreview.png]
+:::
 
-* Lab: richier
 
 # use cases
 
