@@ -118,9 +118,9 @@ Out[4]: [ 'Hello, World', 'Hello, World', 'Hello, World', 'Hello, World' ]
 * Easy to setup
 * But very platform specific (I prefer joblib)
 
-## caveats
+# Caveats
 
-### Execution order
+## Execution order
 
 * When you re-run a cell, all the variables within that cell are updated
 * State can change
@@ -136,7 +136,7 @@ Out[4]: [ 'Hello, World', 'Hello, World', 'Hello, World', 'Hello, World' ]
 * Ensure linear execution
 
 
-### Spaghetti notebooks
+## Spaghetti notebooks
 
 * Push to write imperative programming
 * Cells 100s of lines long
@@ -151,7 +151,7 @@ Out[4]: [ 'Hello, World', 'Hello, World', 'Hello, World', 'Hello, World' ]
 3. Gradually evolve in a project architecture
 
 
-### Versioning
+## Versioning
 
 * Notebooks are JSON documents
 * Output (e.g. images) are serialized
@@ -164,10 +164,11 @@ Out[4]: [ 'Hello, World', 'Hello, World', 'Hello, World', 'Hello, World' ]
 
 ----
 
-> Solutions
+#### Solution
 
 * pre-commit hook to delete output before push
 * [nbdime](https://nbdime.readthedocs.io/en/latest/): visually acurate and efficient diff & merge for the notebooks
+
 
 # Code Distribution
 
