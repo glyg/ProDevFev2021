@@ -14,7 +14,7 @@ html:
 		   -s main.md \
 		   -o build_html/main.html \
            --slide-level 3 \
-	       --mathjax
+	       --mathjax -i
 
 beamer:
 	rm -Rf build_pdf
